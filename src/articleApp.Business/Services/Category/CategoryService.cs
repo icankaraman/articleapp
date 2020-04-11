@@ -74,7 +74,7 @@ namespace articleApp.Business.Services
             var categoryList = new List<Category>(){
                 new Category()
                 {
-                    Id = ObjectId.GenerateNewId().ToString(),
+                    Id ="5e920e860deb933d800d06fe",
                     Name = "Teknoloji",
                     Description="Teknolojiye Dair Makaleler",
                     CreateDate = DateTime.UtcNow,
@@ -82,7 +82,7 @@ namespace articleApp.Business.Services
                 },
                 new Category()
                 {
-                    Id = ObjectId.GenerateNewId().ToString(),
+                    Id ="5e920e860deb933d800d07fe",
                     Name = "Bilim",
                     Description="Bilime Dair Makaleler",
                     CreateDate = DateTime.UtcNow,
@@ -90,8 +90,8 @@ namespace articleApp.Business.Services
                 },
                  new Category()
                 {
-                    Id = ObjectId.GenerateNewId().ToString(),
-                    Name = "Bonny Food",
+                    Id = "5e920e860deb933d800d08fe",
+                    Name = "Sağlık",
                     Description = "Sağlığa Dair Makaleler",
                     CreateDate = DateTime.UtcNow,
                     Status=(byte)StatusType.Active,

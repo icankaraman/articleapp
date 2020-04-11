@@ -77,7 +77,7 @@ namespace articleApp.Business.Services
             var userList = new List<User>();
             userList.Add(new User()
             {
-                Id = ObjectId.GenerateNewId().ToString(),
+                Id = "5e920e860deb933d800d04fe",
                 Name = "Can",
                 Email = "cankaraman94@gmail.com",
                 CreateDate = DateTime.Now,
@@ -86,7 +86,7 @@ namespace articleApp.Business.Services
             });
             userList.Add(new User()
             {
-                Id = ObjectId.GenerateNewId().ToString(),
+                Id = "5e920e860deb933d800d05fe",
                 Name = "readerCan",
                 Email = "readerCan@gmail.com",
                 CreateDate = DateTime.Now,

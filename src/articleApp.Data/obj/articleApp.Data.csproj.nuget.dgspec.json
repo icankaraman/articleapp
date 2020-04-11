@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj": {}
+    "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj": {}
   },
   "projects": {
-    "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj": {
+    "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj",
         "projectName": "articleApp.Data",
-        "projectPath": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj",
+        "projectPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj",
         "packagesPath": "C:\\Users\\can.karaman\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

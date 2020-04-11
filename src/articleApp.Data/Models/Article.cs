@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace articleApp.Data.Models
 {
-    public class Article
+    public class Article : MainModel
     {
         public string CategoryId { get; set; }
         public string UserId { get; set; }

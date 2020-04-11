@@ -4990,6 +4990,21 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "articleApp.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "AutoMapper": "8.1.1",
+          "MongoDB.Driver": "2.10.0",
+          "articleApp.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/articleApp.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/articleApp.Business.dll": {}
+        }
+      },
       "articleApp.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -13488,6 +13503,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "articleApp.Business/1.0.0": {
+      "type": "project",
+      "path": "../articleApp.Business/articleApp.Business.csproj",
+      "msbuildProject": "../articleApp.Business/articleApp.Business.csproj"
+    },
     "articleApp.Data/1.0.0": {
       "type": "project",
       "path": "../articleApp.Data/articleApp.Data.csproj",
@@ -13504,6 +13524,7 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "MongoDB.Driver >= 2.10.0",
       "Swashbuckle.AspNetCore >= 5.0.0",
+      "articleApp.Business >= 1.0.0",
       "articleApp.Data >= 1.0.0"
     ]
   },
@@ -13514,11 +13535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Api\\articleApp.Api.csproj",
+      "projectUniqueName": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Api\\articleApp.Api.csproj",
       "projectName": "articleApp.Api",
-      "projectPath": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Api\\articleApp.Api.csproj",
+      "projectPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Api\\articleApp.Api.csproj",
       "packagesPath": "C:\\Users\\can.karaman\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Api\\obj\\",
+      "outputPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13535,8 +13556,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj": {
-              "projectPath": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj"
+            "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj": {
+              "projectPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj"
+            },
+            "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj": {
+              "projectPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj"
             }
           }
         }

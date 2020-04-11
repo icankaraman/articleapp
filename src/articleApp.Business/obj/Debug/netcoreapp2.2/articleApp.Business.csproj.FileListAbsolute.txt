@@ -1,0 +1,14 @@
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\bin\Debug\netcoreapp2.2\articleApp.Business.deps.json
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\bin\Debug\netcoreapp2.2\articleApp.Business.runtimeconfig.json
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\bin\Debug\netcoreapp2.2\articleApp.Business.runtimeconfig.dev.json
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\bin\Debug\netcoreapp2.2\articleApp.Business.dll
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\bin\Debug\netcoreapp2.2\articleApp.Business.pdb
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\bin\Debug\netcoreapp2.2\articleApp.Data.dll
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\bin\Debug\netcoreapp2.2\articleApp.Data.pdb
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\obj\Debug\netcoreapp2.2\articleApp.Business.csprojAssemblyReference.cache
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\obj\Debug\netcoreapp2.2\articleApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\obj\Debug\netcoreapp2.2\articleApp.Business.AssemblyInfoInputs.cache
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\obj\Debug\netcoreapp2.2\articleApp.Business.AssemblyInfo.cs
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\obj\Debug\netcoreapp2.2\articleApp.Business.csproj.CopyComplete
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\obj\Debug\netcoreapp2.2\articleApp.Business.dll
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Business\obj\Debug\netcoreapp2.2\articleApp.Business.pdb

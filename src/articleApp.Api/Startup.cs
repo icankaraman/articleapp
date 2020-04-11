@@ -4,6 +4,7 @@ using articleApp.Api.Extension;
 using articleApp.Business.Repository;
 using articleApp.Business.Services;
 using articleApp.Data.Models;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -57,6 +58,7 @@ namespace articleApp.Api
                     });
                 });
 
+            services.AddAutoMapper();
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ICategoryService, CategoryService>();

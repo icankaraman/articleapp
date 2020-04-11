@@ -1,0 +1,11 @@
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\bin\Debug\netcoreapp2.2\articleApp.Data.deps.json
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\bin\Debug\netcoreapp2.2\articleApp.Data.runtimeconfig.json
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\bin\Debug\netcoreapp2.2\articleApp.Data.runtimeconfig.dev.json
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\bin\Debug\netcoreapp2.2\articleApp.Data.dll
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\bin\Debug\netcoreapp2.2\articleApp.Data.pdb
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\obj\Debug\netcoreapp2.2\articleApp.Data.csprojAssemblyReference.cache
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\obj\Debug\netcoreapp2.2\articleApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\obj\Debug\netcoreapp2.2\articleApp.Data.AssemblyInfoInputs.cache
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\obj\Debug\netcoreapp2.2\articleApp.Data.AssemblyInfo.cs
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\obj\Debug\netcoreapp2.2\articleApp.Data.dll
+C:\Users\can.karaman\Desktop\articleApp\src\articleApp.Data\obj\Debug\netcoreapp2.2\articleApp.Data.pdb

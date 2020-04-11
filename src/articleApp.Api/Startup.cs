@@ -3,8 +3,10 @@ using System.Linq;
 using articleApp.Api.Extension;
 using articleApp.Business.Repository;
 using articleApp.Business.Services;
+using articleApp.Business.Validator;
 using articleApp.Data.Models;
 using AutoMapper;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +35,7 @@ namespace articleApp.Api
                   = Configuration.GetSection("MongoConnection:Database").Value;
           });
             services.AddTransient<ArticleDbContext>();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2).AddFluentValidation(validationConfig => validationConfig.RegisterValidatorsFromAssemblyContaining<ArticleRequestModelValidator>());
             services.Configure<ApiBehaviorOptions>(options =>
                 {
                     options.InvalidModelStateResponseFactory = (context) =>
@@ -62,6 +64,7 @@ namespace articleApp.Api
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IArticleService, ArticleService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

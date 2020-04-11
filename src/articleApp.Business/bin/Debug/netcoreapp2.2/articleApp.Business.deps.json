@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "6e750145921d7bb52ef95ff8eacaabc49d45f1cc"
+    "signature": "c9ed2de5cfe7dcd38522e963748e29fa1e195b91"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
       "articleApp.Business/1.0.0": {
         "dependencies": {
           "AutoMapper": "8.1.1",
+          "FluentValidation": "8.1.1",
           "MongoDB.Driver": "2.10.0",
           "articleApp.Data": "1.0.0"
         },
@@ -29,6 +30,18 @@
           "lib/netstandard2.0/DnsClient.dll": {
             "assemblyVersion": "1.2.0.0",
             "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "FluentValidation/8.1.1": {
+        "dependencies": {
+          "System.ComponentModel.Primitives": "4.3.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.1.0"
           }
         }
       },
@@ -192,16 +205,16 @@
           }
         }
       },
-      "System.ComponentModel/4.0.1": {},
-      "System.ComponentModel.Primitives/4.1.0": {
+      "System.ComponentModel/4.3.0": {},
+      "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
-          "System.ComponentModel": "4.0.1"
+          "System.ComponentModel": "4.3.0"
         }
       },
       "System.ComponentModel.TypeConverter/4.1.0": {
         "dependencies": {
-          "System.ComponentModel": "4.0.1",
-          "System.ComponentModel.Primitives": "4.1.0"
+          "System.ComponentModel": "4.3.0",
+          "System.ComponentModel.Primitives": "4.3.0"
         }
       },
       "System.Diagnostics.Process/4.1.0": {
@@ -312,6 +325,7 @@
         }
       },
       "System.Threading.ThreadPool/4.3.0": {},
+      "System.ValueTuple/4.5.0": {},
       "articleApp.Data/1.0.0": {
         "dependencies": {
           "MongoDB.Driver": "2.10.0"
@@ -341,6 +355,13 @@
       "sha512": "sha512-P34wUkeqU4FoQiOMV8OjpdeDZKs4d3r+VlHuKJ6eO5feiZgna3+9MF5orHRUn3DAv1g/HPE5hlkGucmxmsFfBw==",
       "path": "dnsclient/1.2.0",
       "hashPath": "dnsclient.1.2.0.nupkg.sha512"
+    },
+    "FluentValidation/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yvSlYDthCeMFbFut/OCVCGXAB8SUb0c7Dv4hWcbJNNOugq+4rqsD7piGQYF9MxmJSMYDagbq6OJHOajKg159yg==",
+      "path": "fluentvalidation/8.1.1",
+      "hashPath": "fluentvalidation.8.1.1.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
@@ -468,19 +489,19 @@
       "path": "sharpcompress/0.23.0",
       "hashPath": "sharpcompress.0.23.0.nupkg.sha512"
     },
-    "System.ComponentModel/4.0.1": {
+    "System.ComponentModel/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
-      "path": "system.componentmodel/4.0.1",
-      "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
+      "sha512": "sha512-VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "path": "system.componentmodel/4.3.0",
+      "hashPath": "system.componentmodel.4.3.0.nupkg.sha512"
     },
-    "System.ComponentModel.Primitives/4.1.0": {
+    "System.ComponentModel.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sc/7eVCdxPrp3ljpgTKVaQGUXiW05phNWvtv/m2kocXqrUQvTVWKou1Edas2aDjTThLPZOxPYIGNb/HN0QjURg==",
-      "path": "system.componentmodel.primitives/4.1.0",
-      "hashPath": "system.componentmodel.primitives.4.1.0.nupkg.sha512"
+      "sha512": "sha512-j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "path": "system.componentmodel.primitives/4.3.0",
+      "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
     },
     "System.ComponentModel.TypeConverter/4.1.0": {
       "type": "package",
@@ -558,6 +579,13 @@
       "sha512": "sha512-k/+g4b7vjdd4aix83sTgC9VG6oXYKAktSfNIJUNGxPEj7ryEOfzHHhfnmsZvjxawwcD9HyWXKCXmPjX8U4zeSw==",
       "path": "system.threading.threadpool/4.3.0",
       "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
     "articleApp.Data/1.0.0": {
       "type": "project",

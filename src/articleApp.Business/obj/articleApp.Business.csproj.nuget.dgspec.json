@@ -1,17 +1,86 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj": {}
+    "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj": {}
   },
   "projects": {
-    "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj": {
+    "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj",
         "projectName": "articleApp.Business",
-        "projectPath": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj",
+        "projectPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\articleApp.Business.csproj",
         "packagesPath": "C:\\Users\\can.karaman\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\obj\\",
+        "outputPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\can.karaman\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj": {
+                "projectPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj",
+        "projectName": "articleApp.Data",
+        "projectPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\articleApp.Data.csproj",
+        "packagesPath": "C:\\Users\\can.karaman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\can.karaman\\Desktop\\articleApp\\src\\articleApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,16 +114,15 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.0, )"
             }
           },
           "imports": [

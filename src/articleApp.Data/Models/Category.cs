@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace articleApp.Data.Models
 {
-    public class Category
+    public class Category : MainModel
     {
         public string Name { get; set; }
         public string Description { get; set; }
